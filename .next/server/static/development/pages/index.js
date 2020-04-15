@@ -209,13 +209,36 @@ const Layout = props => __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Container
     lineNumber: 7,
     columnNumber: 13
   }
+}), __jsx("script", {
+  async: true,
+  src: "https://www.googletagmanager.com/gtag/js?id=UA-155374728-3",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 8,
+    columnNumber: 13
+  }
+}), __jsx("script", {
+  dangerouslySetInnerHTML: {
+    __html: `window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+
+                gtag('config', 'UA-155374728-3');`
+  },
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 9,
+    columnNumber: 13
+  }
 }), __jsx("link", {
   rel: "icon",
   href: "/favicon.ico",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 8,
+    lineNumber: 15,
     columnNumber: 13
   }
 }), __jsx("meta", {
@@ -224,7 +247,7 @@ const Layout = props => __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Container
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 9,
+    lineNumber: 16,
     columnNumber: 13
   }
 }), __jsx("link", {
@@ -233,14 +256,14 @@ const Layout = props => __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Container
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 10,
+    lineNumber: 17,
     columnNumber: 13
   }
 }), __jsx("title", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 11,
+    lineNumber: 18,
     columnNumber: 13
   }
 }, props.title)), props.children);

@@ -49,13 +49,32 @@ var Layout = function Layout(props) {
       lineNumber: 7,
       columnNumber: 13
     }
+  }), __jsx("script", {
+    async: true,
+    src: "https://www.googletagmanager.com/gtag/js?id=UA-155374728-3",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8,
+      columnNumber: 13
+    }
+  }), __jsx("script", {
+    dangerouslySetInnerHTML: {
+      __html: "window.dataLayer = window.dataLayer || [];\n                function gtag(){dataLayer.push(arguments);}\n                gtag('js', new Date());\n\n                gtag('config', 'UA-155374728-3');"
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9,
+      columnNumber: 13
+    }
   }), __jsx("link", {
     rel: "icon",
     href: "/favicon.ico",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8,
+      lineNumber: 15,
       columnNumber: 13
     }
   }), __jsx("meta", {
@@ -64,7 +83,7 @@ var Layout = function Layout(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9,
+      lineNumber: 16,
       columnNumber: 13
     }
   }), __jsx("link", {
@@ -73,14 +92,14 @@ var Layout = function Layout(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10,
+      lineNumber: 17,
       columnNumber: 13
     }
   }), __jsx("title", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11,
+      lineNumber: 18,
       columnNumber: 13
     }
   }, props.title)), props.children);
