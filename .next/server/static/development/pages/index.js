@@ -156,32 +156,7 @@ const Header = props => __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"], {
     lineNumber: 10,
     columnNumber: 10
   }
-}))), props.navitems.map(navitem => __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["NavItem"], {
-  key: navitem.key,
-  className: "d-flex",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 15,
-    columnNumber: 16
-  }
-}, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-  href: navitem.link,
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 16,
-    columnNumber: 19
-  }
-}, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
-  className: "align-self-center",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 17,
-    columnNumber: 22
-  }
-}, navitem.label)))));
+}))));
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
 

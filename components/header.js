@@ -10,7 +10,7 @@ const Header = (props) => (
          <img src={props.navlogo} className="img-fluid" />
          </Link>
       </NavItem>
-      {
+      {/*
          props.navitems.map(navitem => (
                <NavItem key={navitem.key} className="d-flex">
                   <Link href={navitem.link}>
@@ -19,7 +19,7 @@ const Header = (props) => (
                </NavItem>
             )
          )
-      }
+         */}
    </Nav>
 )
 
